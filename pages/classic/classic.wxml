@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="header-container">
+    <o-episode class="episode" index="{{index}}"/>
+    <o-like class="like" bind:like="onLike" like="{{like_status}}" count="{{fav_nums}}"/>
+  </view>
+  <o-movie image="{{image}}" content="{{content}}" />
+  <o-nav bind:left="onPrev" bind:right="onNext" class="nav" title="{{title}}" id="{{id}}" />
+</view>

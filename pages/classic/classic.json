@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "o-episode": "/components/episode/index",
+    "o-like": "/components/like/index",
+    "o-movie": "/components/classic/movie/index",
+    "o-nav": "/components/nav/index"
+  }
+}

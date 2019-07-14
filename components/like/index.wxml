@@ -1,0 +1,4 @@
+<view bind:tap="onLike" class="like-container">
+  <image src="{{like ? likeImg : unlikeImg}}" />
+  <text>{{count}}</text>
+</view>

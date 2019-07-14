@@ -1,0 +1,5 @@
+<view class="sentense-container">
+  <image class="sentense" src='{{image}}' />
+  <image class="tag" src="./images/sentense@tag.png" />
+  <text>{{content}}</text>
+</view>

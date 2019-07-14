@@ -1,0 +1,18 @@
+.like-container {
+  display: inline-flex;
+  flex-grow: auto;
+  padding: 10rpx;
+}
+
+.like-container image {
+  width: 32rpx;
+  height: 28rpx;
+}
+
+.like-container text {
+  font-size: 24rpx;
+  color: #bbb;
+  line-height: 24rpx;
+  position: relative;
+  bottom: 10rpx;
+}

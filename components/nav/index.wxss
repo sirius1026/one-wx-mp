@@ -1,0 +1,18 @@
+.nav-container {
+  width: 590rpx;
+  height: 80rpx;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.title {
+  font-size: 28rpx;
+}
